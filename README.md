@@ -7,18 +7,18 @@ An automated warehouse document processing system that transforms chaotic order 
 
 ## 🎯 Problem Solved
 
-**Before**: Warehouse staff receive hundreds of randomly-ordered packing slips and shipping labels each day. They spend 2+ hours manually:
+**Before**: Shopify labels and packing slips print in order of the timing of the orders coming in. Warehouse staff spends time:
 - Reading each packing slip to identify products
 - Looking up warehouse locations for each product  
 - Physically sorting documents by warehouse area
 - Matching packing slips to their corresponding shipping labels
 - Walking inefficient routes through the warehouse
 
-**After**: Upload two PDFs → Get perfectly organized documents in 2 minutes, ready for efficient warehouse picking.
+**After**: Upload two PDFs → Get labels AND packing slips sorted by product, and secondly by warehouse area. Perfectly organized documents in 2 minutes, ready for efficient warehouse picking.
 
 ## ⚡ Business Impact
 
-- ⏱️ **95% Time Reduction**: 2 hours → 2 minutes daily
+- ⏱️ **95% Time Reduction**: 1 hour → 2 minutes daily
 - 🎯 **Zero Sorting Errors**: Eliminates manual mistakes
 - 📈 **Efficiency Gains**: Optimized warehouse picking routes
 - 🔄 **Infinite Scalability**: Handles any volume of orders
@@ -160,9 +160,8 @@ printer_name="YOUR_LABEL_PRINTER"         # e.g., "DYMO_LabelWriter_4XL"
 The CSV file should follow this structure:
 ```csv
 Product Name,Area
-Athena Black Patent,B12
-Boomer Tan,B11
-College Loafer Black,B13
+T Shirt,B16
+Blue Pants Size 30 Waist,B21
 ```
 
 ## 🔧 Troubleshooting
