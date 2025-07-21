@@ -1,0 +1,5 @@
+PySimpleGUI>=4.60.0
+pandas>=1.5.0
+pypdf>=3.0.0
+reportlab>=3.6.0
+pdfplumber>=0.7.0
